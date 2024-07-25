@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #161717;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #7d7d7d;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 300px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* INTRO SECTION */
+
+#intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profile-info h1 {
+    text-align: center;
+}
+
+#profile-info p {
+    margin: 10px;
+}
+
+p.info-text {
+    font-style: italic;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.social-icon {
+    height: 40px;
+}
+
+/* ABOUT ME SECTION */
+
+#about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PROJECTS SECTION */
+
+#projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#project-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item img {
+    width: 400px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.project-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-inner-left {
+    width: 50%;
+}
+
+.project-inner-right {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-inner-right img {
+    height: 40px;
+    width: 40px;
+}
+
